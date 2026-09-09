@@ -1,0 +1,21 @@
+# Local Meraki audit/standardization output
+Meraki-Alerts/
+Meraki-Alert-Audit-*/
+Meraki-Alert-Review-*/
+Meraki-Alert-Standard-*/
+
+# Exported data may contain customer names, IDs, email addresses, and network details
+*.csv
+*.json
+
+# Local environment/secrets
+.env
+.env.*
+*.key
+*.secret
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
